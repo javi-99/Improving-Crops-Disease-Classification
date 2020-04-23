@@ -19,7 +19,7 @@ learning-based approach that does not require ground-truth images to remove the 
 ## Results
 **Qualitative Results on Wheat Crop**
 <p align="center">
-  <img src="./images/wheat_quality.png" width="600" title="Qualitative result on wheat data">
+  <img src="./Images/wheat_quality.png" width="600" title="Qualitative result on wheat data">
 </p>
 
 
