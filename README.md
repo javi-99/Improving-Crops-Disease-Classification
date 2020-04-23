@@ -32,7 +32,7 @@ learning-based approach that does not require ground-truth images to remove the 
 
 | Crops | Data   | PSNR  | SSIM  | GoogleNet | Resnet18 | Alexnet | VGG11   | Squeezenet | Densenet |
 | :---: | :---:  | :---: | :---: | :---:     |  :---:   | :---:   | :---:   | :---:      | :---:    |
-| Wheat | Clean  |  -    |  -    |  76.66%   |   84.16% |  78.33% |  68.33% |   83.33%   |  78.33%  |
+|  Span <td rowspan=4> Wheat | Clean  |  -    |  -    |  76.66%   |   84.16% |  78.33% |  68.33% |   83.33%   |  78.33%  |
 |       | Blur   | 16.96 | 0.195 |  62.50%   |   71.66% |  59.16% |  46.66% |   65.00%   |  58.33%  |
 | | Unsupervised | 18.55 | 0.483 |  74.16%   |   75.83% |  76.66% |  67.50% |   77.50%   |  73.33%  |
 | | Supervised   | 18.90 | 0.494 |  75.06%   |   76.66% |  77.50% |  67.50% |   78.33%   |  74.16%  |
