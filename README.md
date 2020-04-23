@@ -16,3 +16,10 @@ learning-based approach that does not require ground-truth images to remove the 
 5. Run `blur_deblur_and_save.ipynb` to load test images, convolve with blur kernels and deblur with your trained model and then save  both into separate directories.
 6. Run `test_classifier.ipynb` to load clean, blur and deblur (by supervised & unsupervised methods) test images and test your trained classification model.
 
+## Results
+**Qualitative Results on Wheat Crop**
+<p align="center">
+  <img src="./images/wheat_quality" width="600" title="Qualitative result on wheat data">
+</p>
+
+
