@@ -9,9 +9,13 @@ learning-based approach that does not require ground-truth images to remove the 
 
 
 **How to Run**
-1. Run `deblurring_*_algorithm_1.py`  for running algorithm 1 (proposed in paper)  for each dataset.
-2. Run `deblurring_*_algorithm_2.py`  for running algorithm 2 (proposed in paper)  for each dataset.
-3. Each `deblurring_*.py` file contains algorithm constants and parameters at the beginning under "constants" for experimentation purposes.
+*** Deblur Training***
+1. Run `make_txt.py`  to get paths of images in the training set and your generated blur kernels.
+2. Run `train_nonblind.py`  for running unsupervised deblur algorithm (proposed in paper) for your dataset.
+3. Run `train_supervised.py`  for running supervised deblur algorithm (proposed in paper) for your dataset.
+
+*** Blur and Deblur Images***
+1. Run `deblurring_*.py` file contains algorithm constants and parameters at the beginning under "constants" for experimentation purposes.
 4. To produce closest range images (in paper) run `generate_range_images.py` with appropriate parameters, also included in the file.
 
 
