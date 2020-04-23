@@ -7,12 +7,23 @@ Crop diseases pose a major threat to the world food security, and their timely i
 that are difficult to obtain in many agricultural applications. To solve this issue, we leverage a recently proposed deep
 learning-based approach that does not require ground-truth images to remove the motion blur. We show the effectiveness of our proposed approach on wheat and rice plant disease datasets.
 
-
+## Code
 **How to Run**
-1. Run `deblurring_*_algorithm_1.py`  for running algorithm 1 (proposed in paper)  for each dataset.
-2. Run `deblurring_*_algorithm_2.py`  for running algorithm 2 (proposed in paper)  for each dataset.
-3. Each `deblurring_*.py` file contains algorithm constants and parameters at the beginning under "constants" for experimentation purposes.
-4. To produce closest range images (in paper) run `generate_range_images.py` with appropriate parameters, also included in the file.
+1. Run `make_txt.ipynb`  to get paths of images in the training set and your generated blur kernels.
+2. Run `train_nonblind.ipynb`  for running unsupervised deblur algorithm (proposed in paper) for your dataset.
+3. Run `train_supervised.ipynb`  for running supervised deblur algorithm (proposed in paper) for your dataset.
+4. Run `train_classification_model.ipynb`to train any open source deep learning model on your dataset for disease classification
+5. Run `blur_deblur_and_save.ipynb` to load test images, convolve with blur kernels and deblur with your trained model and then save  both into separate directories.
+6. Run `test_classifier.ipynb` to load clean, blur and deblur (by supervised & unsupervised methods) test images and test your trained classification model.
 
+## Experimental Results
+**Qualitative Results on Wheat Crop**
+<p align="center">
+  <img src="./Images/wheat_quality.png" width="600" title="Qualitative result on wheat data">
+</p>
 
+**Qualitative Results on Rice Crop**
+<p align="center">
+  <img src="./Images/rice_quality.png" width="600" title="Qualitative result on wheat data">
+</p>
 
