@@ -1,5 +1,6 @@
 # Improving Crops Disease Classification
-Our work has been accepted in Challenges & Opportunities for Computer Vision in Agriculture **Agriculture-Vision CVPR Workshop, 2020.** 
+Our work has been accepted in Challenges & Opportunities for Computer Vision in Agriculture 
+<br />  **Agriculture-Vision CVPR Workshop, 2020.** 
 <br /> Titled **"Deep Unsupervised Deblurring Approach for Improving Crops Disease Classification"** 
 <br />
 ## Summary:
