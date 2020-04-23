@@ -42,3 +42,114 @@ learning-based approach that does not require ground-truth images to remove the 
   | | Supervised   | 29.77 | 0.857 |  54.37%   |   51.25% |  53.75% |  56.25% |   46.83%   |  61.25%  |
 
 
+
+
+**Quantitative Results on Rice Crop**
+<table>
+    <thead>
+        <tr>
+            <th>Crop</th>
+            <th>Data</th>
+            <th>PSNR</th>
+            <th>SSIM</th>
+            <th>GoogleNet</th>
+            <th>Resnet18</th>
+            <th>Alexnet</th>
+            <th>VGG11</th>
+            <th>Squeezenet</th>
+            <th>Densenet</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>Wheat</td>
+            <td> Clean  </td>
+            <td>  -    </td>
+            <td>  -    </td>
+            <td>  76.66%   </td>
+            <td>   84.16% </td>
+            <td>  78.33% </td>
+            <td>  68.33% </td>
+            <td>   83.33%   </td>
+            <td>  78.33%  </td>`
+        </tr>
+        <tr>
+            <td> Blur   </td>
+            <td> 16.96 </td>
+            <td> 0.195 </td>
+            <td>  62.50%   </td>
+            <td>   71.66% </td>
+            <td>  59.16% </td>
+            <td>  46.66% </td>
+            <td>   65.00%   </td>
+            <td>  58.33%  </td>
+        </tr>
+        <tr>
+            <td> Unsupervised </td>
+            <td> 18.55 </td>
+            <td> 0.483 </td>
+            <td>  74.16%   </td>
+            <td>   75.83% </td>
+            <td>  76.66% </td>
+            <td>  67.50% </td>
+            <td>   77.50%   </td>
+            <td>  73.33%  </td>
+        </tr>
+        <tr>
+            <td> Supervised   </td>
+            <td> 18.90 </td>
+            <td> 0.494 </td>
+            <td>  75.06%   </td>
+            <td>   76.66% </td>
+            <td>  77.50% </td>
+            <td>  67.50% </td>
+            <td>   78.33%   </td>
+            <td>  74.16%  </td>
+        </tr>
+        <tr>
+            <td rowspan=4> Rice  </td>
+            <td> Clean  </td>
+            <td>   -   </td>
+            <td>  -    </td>
+            <td>  78.12%   </td>
+            <td>   82.50% </td>
+            <td>  56.25% </td>
+            <td>  83.75% </td>
+            <td>   77.50%   </td>
+            <td>  81.87%  </td>
+        </tr>
+        <tr>
+            <td> Blur   </td>
+            <td> 22.52 </td>
+            <td> 0.73  </td>
+            <td>  31.25%   </td>
+            <td>   36.25% </td>
+            <td>  40.62% </td>
+            <td>  26.25% </td>
+            <td>   25.62%   </td>
+            <td>  30.00%  </td>
+        </tr>
+        <tr>
+            <td> Unsupervised </td>
+            <td> 29.63 </td>
+            <td> 0.852 </td>
+            <td>  53.75%   </td>
+            <td>   55.00% </td>
+            <td>  56.25% </td>
+            <td>  52.50% </td>
+            <td>   52.50%   </td>
+            <td>  57.50%  </td>
+        </tr>
+        <tr>
+            <td> Supervised   </td>
+            <td> 29.77 </td>
+            <td> 0.857 </td>
+            <td>  54.37%   </td>
+            <td>   51.25% </td>
+            <td>  53.75% </td>
+            <td>  56.25% </td>
+            <td>   46.83%   </td>
+            <td>  61.25%  </td>
+        </tr>
+    </tbody>
+</table>
