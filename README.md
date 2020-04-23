@@ -14,11 +14,11 @@ learning-based approach that does not require ground-truth images to remove the 
 3. Run `train_supervised.ipynb`  for running supervised deblur algorithm (proposed in paper) for your dataset.
 
 **How to Run Classification Model**
-Run `train_classification_model.ipynb`to train any open source deep learning model on your dataset for disease classification
+<br /> Run `train_classification_model.ipynb`to train any open source deep learning model on your dataset for disease classification
 
 **How to Blur and Deblur Images**
-Run `blur_deblur_and_save.ipynb` to load test images, convolve with blur kernels and deblur with your trained model and then save  both into separate directories.
+<br /> Run `blur_deblur_and_save.ipynb` to load test images, convolve with blur kernels and deblur with your trained model and then save  both into separate directories.
 
 **Test Classifier**
-Run `test_classifier.ipynb` to load clean, blur and deblur (by supervised & unsupervised methods) test images and test your trained classification model.
+<br /> Run `test_classifier.ipynb` to load clean, blur and deblur (by supervised & unsupervised methods) test images and test your trained classification model.
 
