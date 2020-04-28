@@ -1,5 +1,8 @@
 # Improving Crops Disease Classification
-This repository contains the code for the workshop paper **"Deep Unsupervised Deblurring Approach for Improving Crops Disease Classification"** accepted in Computer Vision and Pattern Recognition (CVPR) track: Challenges & Opportunities for Computer Vision in Agriculture 2020.  
+This repository contains the code for the workshop paper 
+<br /> **"Deep Unsupervised Deblurring Approach for Improving Crops Disease Classification"** 
+<br /> accepted in Computer Vision and Pattern Recognition (CVPR) 
+<br /> track: Challenges & Opportunities for Computer Vision in Agriculture 2020.  
 <br />  Authors **Javed Ahmad, Fahad Shamshad, Junaid Maqbool, and Ali Ahmed** 
 <br />
 ## Summary:
